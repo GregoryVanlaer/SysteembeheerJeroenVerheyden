@@ -55,3 +55,4 @@ uuidd:x:115:
 tcpdump:x:116:
 systemd-coredump:x:999:
 check:x:1000:
+_cvsadmin:x:117:
