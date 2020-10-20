@@ -15,6 +15,8 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # User alias specification
 
 # Cmnd alias specification
+Cmnd_Alias CHECK_APT = /usr/lib/nagios/plugins/check_apt
+Cmnd_Alias ARP = /usr/sbin/arp
 
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
@@ -28,3 +30,5 @@ root	ALL=(ALL:ALL) ALL
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
+check ALL=(ALL) NOPASSWD: CHECK_APT
+check ALL=(ALL) NOPASSWD: ARP
