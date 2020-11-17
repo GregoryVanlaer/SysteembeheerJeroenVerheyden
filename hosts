@@ -2,6 +2,7 @@
 ::1		localhost ip6-localhost ip6-loopback
 ff02::1		ip6-allnodes
 ff02::2		ip6-allrouters
+162.159.200.123	NTP-server-host
 # --- BEGIN PVE ---
 193.191.177.157 jeroen-verheyden2.sb.uclllabs.be jeroen-verheyden2
 # --- END PVE ---

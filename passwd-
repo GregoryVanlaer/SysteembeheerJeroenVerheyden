@@ -30,3 +30,4 @@ systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 check:x:1000:1000::/home/check:/bin/sh
 gitlog:x:110:65534::/nonexistent:/usr/sbin/nologin
 gitdaemon:x:111:65534::/nonexistent:/usr/sbin/nologin
+ntp:x:112:119::/nonexistent:/usr/sbin/nologin
