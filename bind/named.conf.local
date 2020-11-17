@@ -6,3 +6,12 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "jeroen-verheyden2.sb.uclllabs.be" {
+ type master;
+ file "/var/named/master/master.jeroen-verheyden2.sb.uclllabs.be";
+};
+
+zone "seppe-lenaerts.sb.uclllabs.be"{
+        type slave;
+        masters {193.191.177.207; };
+};
