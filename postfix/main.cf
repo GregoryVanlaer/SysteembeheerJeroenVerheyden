@@ -13,9 +13,19 @@ alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 mydestination = $myhostname, localhost.$mydomain, localhost
 relayhost = 
-mynetworks = 127.0.0.0/8
-inet_interfaces = loopback-only
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128 193.191.177.0/24
+inet_interfaces = all
 recipient_delimiter = +
 
 compatibility_level = 2
 
+# Authentication
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_auth_enable = yes
+
+# Handing off local delivery to Dovecot's LMTP, and telling it where to store mail
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+virtual_mailbox_base = /var/vmail
+
+myhostname = mx.jeroen-verheyden2.sb.uclllabs.be

@@ -33,4 +33,5 @@ gitdaemon:x:111:65534::/nonexistent:/usr/sbin/nologin
 ntp:x:112:119::/nonexistent:/usr/sbin/nologin
 bind:x:113:120::/var/cache/bind:/usr/sbin/nologin
 dovecot:x:114:121:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
-dovenull:x:115:122::/nonexistent:/usr/sbin/nologin
+dovenull:x:115:122:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
+mysql:x:116:123::/nonexistent:/bin/false
