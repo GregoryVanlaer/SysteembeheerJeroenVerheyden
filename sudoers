@@ -9,6 +9,7 @@
 Defaults	env_reset
 Defaults	mail_badpass
 Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+Defaults	rootpw
 
 # Host alias specification
 
@@ -30,5 +31,6 @@ root	ALL=(ALL:ALL) ALL
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
-check ALL=(ALL) NOPASSWD: CHECK_APT
-check ALL=(ALL) NOPASSWD: ARP
+#check ALL=(ALL)  PASSWD: ALL 
+check ALL=(root) NOPASSWD: CHECK_APT
+check ALL=(root) NOPASSWD: ARP
