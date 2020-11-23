@@ -33,4 +33,4 @@ supersecure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:
 
 ; CAA records
 @       IN      CAA     0 issue "letsencrypt.org"
-@       IN      CAA     0 iodef "mailto:jeroen-verheyden2@student.ucll.be"
+@       IN      CAA     0 iodef "mailto:jeroen.verheyden2@student.ucll.be"
