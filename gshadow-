@@ -62,3 +62,4 @@ bind:!::
 dovecot:!::
 dovenull:!::
 mysql:!::
+vmail:!::

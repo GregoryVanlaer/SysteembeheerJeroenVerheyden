@@ -62,3 +62,4 @@ bind:x:120:
 dovecot:x:121:
 dovenull:x:122:
 mysql:x:123:
+vmail:x:5000:
