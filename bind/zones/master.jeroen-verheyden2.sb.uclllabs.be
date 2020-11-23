@@ -9,7 +9,7 @@ $TTL    1
 @       IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 @       IN      NS      ns1.uclllabs.be.
 @       IN      NS      ns2.uclllabs.be.
-@	IN	MX 10	mx.jeroen-verheyden2.sb.uclllabs.be.
+@	IN	MX 10	
 @       IN      NS      ns.seppe-lenaerts.sb.uclllabs.be.
 ; slave
 
@@ -26,10 +26,10 @@ secure  IN    A    193.191.177.157
 supersecure     IN    A    193.191.177.157
 
 secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
-secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroen-verheyden2@student.ucll.be"
+secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroen.verheyden2@student.ucll.be"
 
 supersecure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
-supersecure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroen-verheyden2@student.ucll.be"
+supersecure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroen.verheyden2@student.ucll.be"
 
 ; CAA records
 @       IN      CAA     0 issue "letsencrypt.org"
