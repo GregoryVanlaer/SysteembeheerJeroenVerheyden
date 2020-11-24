@@ -1,6 +1,6 @@
 $TTL    1
 @    IN    SOA    jeroen-verheyden2.sb.uclllabs.be. hostmaster.jeroen-verheyden2.sb.uclllabs.be. (
-         2020103010        ; Serial
+         2029999999        ; Serial
                 301        ; Refresh
               86400        ; Retry
             2419200        ; Expire

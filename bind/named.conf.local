@@ -9,7 +9,7 @@ include "/etc/bind/named.conf.mrt-zones";
 
 zone "jeroen-verheyden2.sb.uclllabs.be" {
  type master;
- file "/var/named/master/master.jeroen-verheyden2.sb.uclllabs.be";
+ file "/etc/bind/zones/master.jeroen-verheyden2.sb.uclllabs.be";
 };
 
 zone "seppe-lenaerts.sb.uclllabs.be"{
