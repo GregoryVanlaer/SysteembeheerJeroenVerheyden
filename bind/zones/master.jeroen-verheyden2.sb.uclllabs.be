@@ -9,7 +9,7 @@ $TTL    1
 @       IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 @       IN      NS      ns1.uclllabs.be.
 @       IN      NS      ns2.uclllabs.be.
-@	IN	MX 10	
+@	IN	MX 5    mx.jeroen-verheyden2.sb.uclllabs.be.	
 @       IN      NS      ns.seppe-lenaerts.sb.uclllabs.be.
 ; slave
 
