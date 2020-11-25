@@ -1,0 +1,11 @@
+
+if [ $1 != "-t" ]; then
+        SUBDOMAIN=$(cut -d'.' -f1 <<< "$3")
+        if [ -e "/etc/bind/mrt-tests/db.$SUBDOMAIN" ] then
+           echo "$1  IN  A    $2"  >> "/etc/bind/mrt-tests/db.$SUBDOMAIN"
+        else
+                echo "db file for $SUBDOMAIN does not exists"
+                exit 1
+        fi
+        exit 0
+fi

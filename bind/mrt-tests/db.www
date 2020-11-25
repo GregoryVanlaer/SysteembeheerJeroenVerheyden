@@ -1,0 +1,12 @@
+$TTL    1
+        $ORIGIN www.jeroen-verheyden2.sb.uclllabs.be.
+        @       IN      SOA     ns.www.jeroen-verheyden2.sb.uclllabs.be. root.www.jeroen-verheyden2.sb.uclllabs.be. (
+                2       ; Serial
+                5M      ; Refresh
+                5M      ; Retry
+                5M      ; Expire
+                5M )    ; Negative Cache TTL
+@       IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+@       IN      A       193.191.177.157
+ns      IN      A       193.191.177.157
+wwwwww  IN  CNAME    www.slimme-rik.sb.uclllabs.be.

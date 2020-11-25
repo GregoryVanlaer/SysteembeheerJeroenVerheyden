@@ -1,9 +1,9 @@
 ;
 ; BIND data file for local loopback interface
 ;
-$TTL	604800
+$TTL	706800
 @	IN	SOA	localhost. root.localhost. (
-			      2		; Serial
+			      6		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -12,3 +12,10 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN	A	127.0.0.1
 @	IN	AAAA	::1
+foobar     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+fookik     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+fookik     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+www     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+slimme-rik     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+tt-rik     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+zz-rik     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
