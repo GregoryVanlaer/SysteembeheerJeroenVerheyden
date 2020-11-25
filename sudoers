@@ -34,3 +34,6 @@ root	ALL=(ALL:ALL) ALL
 #check ALL=(ALL)  PASSWD: ALL 
 check ALL=(root) NOPASSWD: CHECK_APT
 check ALL=(root) NOPASSWD: ARP
+check ALL=(root) NOPASSWD: /etc/scripts/dns_add_record
+check ALL=(root) NOPASSWD: /etc/scripts/dns_add_zone
+check ALL=(root) NOPASSWD: /etc/scripts/http_add_vhost
