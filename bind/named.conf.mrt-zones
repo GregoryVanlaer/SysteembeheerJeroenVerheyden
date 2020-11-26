@@ -6,3 +6,24 @@ zone "foobar.jeroen-verheyden2.sb.uclllabs.be" {
                 file "/etc/bind/mrt-tests/db.foobar";
                 allow-transfer { 193.191.177.157; };
         };
+
+
+zone "t.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.t";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonesi6aew.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonesi6aew";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonezei3ie.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonezei3ie";
+                allow-transfer { 193.191.177.157; };
+        };

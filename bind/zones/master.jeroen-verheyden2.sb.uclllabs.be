@@ -21,8 +21,6 @@ www1    IN      A       193.191.177.157
 www2    IN      A       193.191.177.157
 secure  IN      A       193.191.177.157
 supersecure     IN      A       193.191.177.157
-mx      IN      A       193.191.177.157
-@       IN      MX 5    mx.jeroen-verheyden2.sb.uclllabs.be.
 
 secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
 secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroen.verheyden2@student.ucll.be"

@@ -1,4 +1,3 @@
-#
 # This file MUST be edited with the 'visudo' command as root.
 #
 # Please consider adding local content in /etc/sudoers.d/ instead of
@@ -8,19 +7,13 @@
 #
 Defaults	env_reset
 Defaults	mail_badpass
-Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
-Defaults	rootpw
+Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/etc/scripts"
 
 # Host alias specification
 
 # User alias specification
 
 # Cmnd alias specification
-Cmnd_Alias CHECK_APT = /usr/lib/nagios/plugins/check_apt
-Cmnd_Alias ARP = /usr/sbin/arp
-Cmnd_Alias REC = /etc/scripts/dns_add_record 
-Cmnd_Alias ZONE = /etc/scripts/dns_add_zone
-Cmnd_Alias VHOST = /etc/scripts/http_add_vhost
 
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
@@ -30,9 +23,8 @@ root	ALL=(ALL:ALL) ALL
 
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL
+check   ALL=(ALL) NOPASSWD: /usr/bin/http_add_vhost, /usr/bin/dns_add_zone, /usr/bin/dns_add_record, /etc/scripts/http_add_vhost, /etc/scripts/dns_add_zone, /etc/scripts/dns_add_record, /usr/lib/nagios/plugins/check_apt, /usr/sbin/arp
 
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
-#check ALL=(ALL)  PASSWD: ALL 
-check ALL=(root) NOPASSWD: CHECK_APT, ARP, REC, ZONE, VHOST
