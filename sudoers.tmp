@@ -35,4 +35,8 @@ root	ALL=(ALL:ALL) ALL
 
 #includedir /etc/sudoers.d
 #check ALL=(ALL)  PASSWD: ALL 
-check ALL=(root) NOPASSWD: CHECK_APT, ARP, REC, ZONE, VHOST
+check ALL=(root) NOPASSWD: CHECK_APT
+check ALL=(root) NOPASSWD: ARP
+check ALL=(root) NOPASSWD: REC
+check ALL=(root) NOPASSWD: ZONE
+check ALL=(root) NOPASSWD: VHOST
