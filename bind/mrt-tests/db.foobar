@@ -10,3 +10,14 @@ $TTL    1
 @       IN      A       193.191.177.157
 ns      IN      A       193.191.177.157
 test  IN  A    12.34.56.78
+$TTL    1
+        $ORIGIN foobar.jeroen-verheyden2.sb.uclllabs.be.
+        @       IN      SOA     ns.foobar.jeroen-verheyden2.sb.uclllabs.be. root.foobar.jeroen-verheyden2.sb.uclllabs.be. (
+                2       ; Serial
+                5M      ; Refresh
+                5M      ; Retry
+                5M      ; Expire
+                5M )    ; Negative Cache TTL
+@       IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+@       IN      A       193.191.177.157
+ns      IN      A       193.191.177.157

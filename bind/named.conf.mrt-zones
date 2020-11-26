@@ -1,1 +1,8 @@
 #test
+
+
+zone "foobar.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.foobar";
+                allow-transfer { 193.191.177.157; };
+        };

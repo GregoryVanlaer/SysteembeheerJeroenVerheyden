@@ -18,6 +18,9 @@ Defaults	rootpw
 # Cmnd alias specification
 Cmnd_Alias CHECK_APT = /usr/lib/nagios/plugins/check_apt
 Cmnd_Alias ARP = /usr/sbin/arp
+Cmnd_Alias REC = /etc/scripts/dns_add_record 
+Cmnd_Alias ZONE = /etc/scripts/dns_add_zone
+Cmnd_Alias VHOST = /etc/scripts/http_add_vhost
 
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
@@ -34,6 +37,6 @@ root	ALL=(ALL:ALL) ALL
 #check ALL=(ALL)  PASSWD: ALL 
 check ALL=(root) NOPASSWD: CHECK_APT
 check ALL=(root) NOPASSWD: ARP
-check ALL=(root) NOPASSWD: /etc/scripts/dns_add_record
-check ALL=(root) NOPASSWD: /etc/scripts/dns_add_zone
-check ALL=(root) NOPASSWD: /etc/scripts/http_add_vhost
+check ALL=(root) NOPASSWD: REC
+check ALL=(root) NOPASSWD: ZONE
+check ALL=(root) NOPASSWD: VHOST
