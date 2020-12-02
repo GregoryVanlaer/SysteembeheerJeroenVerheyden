@@ -1,6 +1,6 @@
 $TTL    1
 @    IN    SOA    jeroen-verheyden2.sb.uclllabs.be. hostmaster.jeroen-verheyden2.sb.uclllabs.be. (
-         4229999999        ; Serial
+         4239999999        ; Serial
                 301        ; Refresh
               86400        ; Retry
             2419200        ; Expire
@@ -10,6 +10,8 @@ $TTL    1
 @       IN      NS      ns1.uclllabs.be.
 @       IN      NS      ns2.uclllabs.be.
 @       IN      NS      ns.seppe-lenaerts.sb.uclllabs.be.
+@	IN	AAAA	2001:6a8:2880:a077::9d
+ns	IN	AAAA	2001:6a8:2880:a077::9d
 ; slave
 
 ; A records
@@ -22,6 +24,7 @@ www2    IN      A       193.191.177.157
 secure  IN      A       193.191.177.157
 supersecure     IN      A       193.191.177.157
 mx      IN      A       193.191.177.157
+mx	IN	AAAA	2001:6a8:2880:a077::9d
 @       IN      MX 5    mx.jeroen-verheyden2.sb.uclllabs.be.
 
 secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
