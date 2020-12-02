@@ -11,10 +11,8 @@
 #
 # Run standalone?  vsftpd can run either from an inetd or as a standalone
 # daemon started from an initscript.
-userlist_enable=YES
-userlist_file=/etc/vsftpd/user_list
-userlist_deny=NO
 listen=NO
+log_ftp_protocol=YES
 #
 # This directive enables listening on IPv6 sockets. By default, listening
 # on the IPv6 "any" address (::) will accept connections from both IPv6
@@ -31,7 +29,7 @@ anonymous_enable=NO
 local_enable=YES
 #
 # Uncomment this to enable any form of FTP write command.
-write_enable=YES
+#write_enable=YES
 #
 # Default umask for local users is 077. You may wish to change this to 022,
 # if your users expect that (022 is used by most other ftpd's)
@@ -74,7 +72,7 @@ connect_from_port_20=YES
 #
 # If you want, you can have your log file in standard ftpd xferlog format.
 # Note that the default log file location is /var/log/xferlog in this case.
-#xferlog_std_format=YES
+xferlog_std_format=NO
 #
 # You may change the default value for timing out an idle session.
 #idle_session_timeout=600
@@ -114,8 +112,7 @@ connect_from_port_20=YES
 # You may restrict local users to their home directories.  See the FAQ for
 # the possible risks in this before using chroot_local_user or
 # chroot_list_enable below.
-chroot_local_user=YES
-allow_writeable_chroot=YES
+#chroot_local_user=YES
 #
 # You may specify an explicit list of local users to chroot() to their home
 # directory. If chroot_local_user is YES, then this list becomes a list of
