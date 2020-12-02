@@ -27,3 +27,10 @@ zone "subzonezei3ie.jeroen-verheyden2.sb.uclllabs.be" {
                 file "/etc/bind/mrt-tests/db.subzonezei3ie";
                 allow-transfer { 193.191.177.157; };
         };
+
+
+zone "subzoneooc0ji.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneooc0ji";
+                allow-transfer { 193.191.177.157; };
+        };
