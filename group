@@ -65,3 +65,4 @@ mysql:x:123:
 vmail:x:5000:
 stunnel4:x:124:
 postgres:x:125:
+ftp:x:126:

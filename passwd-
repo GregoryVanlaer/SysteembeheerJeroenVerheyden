@@ -37,4 +37,5 @@ dovenull:x:115:122:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
 mysql:x:116:123:MySQL Server,,,:/nonexistent:/bin/false
 vmail:x:5000:5000::/home/vmail:/bin/sh
 stunnel4:x:117:124::/var/run/stunnel4:/usr/sbin/nologin
-postgres:x:118:125::/var/lib/postgresql:/bin/bash
+postgres:x:118:125:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+ftp:x:119:126::/srv/ftp:/usr/sbin/nologin
