@@ -1,6 +1,6 @@
 $TTL    1
 @    IN    SOA    jeroen-verheyden2.sb.uclllabs.be. hostmaster.jeroen-verheyden2.sb.uclllabs.be. (
-         3020103010        ; Serial
+         4259999999        ; Serial
                 301        ; Refresh
               86400        ; Retry
             2419200        ; Expire
@@ -10,26 +10,21 @@ $TTL    1
 @       IN      NS      ns1.uclllabs.be.
 @       IN      NS      ns2.uclllabs.be.
 @       IN      NS      ns.seppe-lenaerts.sb.uclllabs.be.
-; slave
+@	IN	AAAA	2001:6a8:2880:a077::9d
+ns	IN	AAAA	2001:6a8:2880:a077::9d
+
 
 ; A records
 @       IN      A       193.191.177.157
-@       IN      AAAA    2001:6a8:2880:a077::9d
 ns      IN      A       193.191.177.157
-ns      IN      AAAA    2001:6a8:2880:a077::9d
 www     IN      A       193.191.177.157
-www     IN      AAAA    2001:6a8:2880:a077::9d
 test    IN      A       193.191.177.254
 www1    IN      A       193.191.177.157
-www1    IN      AAAA    2001:6a8:2880:a077::9d
 www2    IN      A       193.191.177.157
-www2    IN      AAAA    2001:6a8:2880:a077::9d
 secure  IN      A       193.191.177.157
-secure  IN      AAAA    2001:6a8:2880:a077::9d
 supersecure     IN      A       193.191.177.157
-supersecure     IN      AAAA    2001:6a8:2880:a077::9d
 mx      IN      A       193.191.177.157
-mx      IN      AAAA    2001:6a8:2880:a077::9d
+mx	IN	AAAA	2001:6a8:2880:a077::9d
 @       IN      MX 5    mx.jeroen-verheyden2.sb.uclllabs.be.
 
 secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
@@ -37,6 +32,9 @@ secure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroe
 
 supersecure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
 supersecure.jeroen-verheyden2.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:jeroen.verheyden2@student.ucll.be"
+
+jeroen-verheyden2.sb.uclllabs.be.	IN	AAAA	2001:6a8:2880:a077::9d
+ns.jeroen-verheyden2.sb.uclllabs.be.	IN	AAAA	2001:6a8:2880:a077::9d
 
 ; CAA records
 @       IN      CAA     0 iodef "mailto:jeroen.verheyden2@student.ucll.be"
