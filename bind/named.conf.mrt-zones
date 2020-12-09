@@ -41,3 +41,430 @@ zone "subzoneeey5oh.jeroen-verheyden2.sb.uclllabs.be" {
                 file "/etc/bind/mrt-tests/db.subzoneeey5oh";
                 allow-transfer { 193.191.177.157; };
         };
+
+
+zone "subzoneiquoh9.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneiquoh9";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneito9ae.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneito9ae";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonepohko7.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonepohko7";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneohsh0t.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneohsh0t";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeib1oh.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeib1oh";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneshahw2.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneshahw2";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonephoo4e.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonephoo4e";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneyeeb1j.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneyeeb1j";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaej3au.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaej3au";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneooth9c.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneooth9c";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeefoj4.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeefoj4";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonecu0rae.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonecu0rae";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneet0noh.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneet0noh";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeiwuo7.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeiwuo7";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonejiec0g.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonejiec0g";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneumae2a.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneumae2a";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeech5x.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeech5x";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeewa8a.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeewa8a";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonefiez9i.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonefiez9i";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneco7tie.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneco7tie";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneoo7owa.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneoo7owa";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonepe4shu.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonepe4shu";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonedoo6do.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonedoo6do";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonequie6e.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonequie6e";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneoyay8u.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneoyay8u";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonedei9we.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonedei9we";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneathee4.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneathee4";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneiisu5b.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneiisu5b";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonetahn4a.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonetahn4a";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonephoo0t.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonephoo0t";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneoov6ri.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneoov6ri";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeb5keg.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeb5keg";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneohqu6a.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneohqu6a";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneceegh5.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneceegh5";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonegae1ei.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonegae1ei";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneneith2.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneneith2";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneuawo5o.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneuawo5o";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneche3ie.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneche3ie";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonejoos4o.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonejoos4o";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneoopo3d.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneoopo3d";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaem2ez.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaem2ez";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneio5iep.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneio5iep";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneeil4al.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneeil4al";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaich7z.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaich7z";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonelooj3u.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonelooj3u";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneietee3.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneietee3";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaip5ae.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaip5ae";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaem9ah.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaem9ah";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaimi6z.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaimi6z";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonegee8ie.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonegee8ie";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneewu0ah.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneewu0ah";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonekaifa8.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonekaifa8";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneiegh2k.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneiegh2k";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneneew5u.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneneew5u";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonenei9ee.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonenei9ee";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneaeth3g.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneaeth3g";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonediwoo7.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonediwoo7";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneothi4k.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneothi4k";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneha9uok.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneha9uok";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzonehoo9da.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzonehoo9da";
+                allow-transfer { 193.191.177.157; };
+        };
+
+
+zone "subzoneonup6i.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneonup6i";
+                allow-transfer { 193.191.177.157; };
+        };

@@ -1,0 +1,12 @@
+$TTL    1
+        $ORIGIN subzonepe4shu.jeroen-verheyden2.sb.uclllabs.be.
+        @       IN      SOA     ns.subzonepe4shu.jeroen-verheyden2.sb.uclllabs.be. root.subzonepe4shu.jeroen-verheyden2.sb.uclllabs.be. (
+                2       ; Serial
+                5M      ; Refresh
+                5M      ; Retry
+                5M      ; Expire
+                5M )    ; Negative Cache TTL
+@       IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+@       IN      A       193.191.177.157
+ns      IN      A       193.191.177.157
+uzo2ga  IN  A    193.191.177.157

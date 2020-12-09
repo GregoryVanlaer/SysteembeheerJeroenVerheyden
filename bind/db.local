@@ -1,9 +1,9 @@
 ;
 ; BIND data file for local loopback interface
 ;
-$TTL	909900
+$TTL	212121211
 @	IN	SOA	localhost. root.localhost. (
-			      8		; Serial
+			      20		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -27,3 +27,64 @@ subzonesi6aew     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 subzonezei3ie     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 subzoneooc0ji     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 subzoneeey5oh     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneiquoh9     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneito9ae     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonepohko7     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneohsh0t     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeib1oh     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneshahw2     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonephoo4e     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneyeeb1j     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaej3au     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneooth9c     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeefoj4     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonecu0rae     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneet0noh     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeiwuo7     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonejiec0g     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneumae2a     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeech5x     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeewa8a     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonefiez9i     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneco7tie     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneoo7owa     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonepe4shu     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonedoo6do     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonequie6e     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneoyay8u     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonedei9we     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneathee4     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneiisu5b     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonetahn4a     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonephoo0t     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneoov6ri     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeb5keg     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneohqu6a     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneceegh5     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonegae1ei     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneneith2     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneuawo5o     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneche3ie     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonejoos4o     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneoopo3d     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaem2ez     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneio5iep     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneeil4al     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaich7z     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonelooj3u     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneietee3     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaip5ae     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaem9ah     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaimi6z     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonegee8ie     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneewu0ah     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonekaifa8     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneiegh2k     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneneew5u     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonenei9ee     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneaeth3g     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonediwoo7     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneothi4k     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneha9uok     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzonehoo9da     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneonup6i     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
