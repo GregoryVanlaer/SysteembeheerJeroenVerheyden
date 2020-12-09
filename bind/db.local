@@ -3,7 +3,7 @@
 ;
 $TTL	212121211
 @	IN	SOA	localhost. root.localhost. (
-			      20		; Serial
+			      21		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -88,3 +88,4 @@ subzoneothi4k     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 subzoneha9uok     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 subzonehoo9da     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
 subzoneonup6i     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.
+subzoneodi4za     IN      NS      ns.jeroen-verheyden2.sb.uclllabs.be.

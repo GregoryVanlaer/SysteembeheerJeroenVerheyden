@@ -468,3 +468,10 @@ zone "subzoneonup6i.jeroen-verheyden2.sb.uclllabs.be" {
                 file "/etc/bind/mrt-tests/db.subzoneonup6i";
                 allow-transfer { 193.191.177.157; };
         };
+
+
+zone "subzoneodi4za.jeroen-verheyden2.sb.uclllabs.be" {
+                type master;
+                file "/etc/bind/mrt-tests/db.subzoneodi4za";
+                allow-transfer { 193.191.177.157; };
+        };
